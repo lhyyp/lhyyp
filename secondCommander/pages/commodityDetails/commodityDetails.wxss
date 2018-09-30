@@ -1,0 +1,60 @@
+/* pages/commodityDetails/commodityDetails.wxss */
+.content{
+  font-size: 28rpx;
+  background: #8a8a8a;
+}
+image.slide-image{
+  display: block;
+  width:750rpx;
+}
+.text{
+  height: 60rpx;
+  line-height: 60rpx;
+  padding-left: 10rpx;
+  background: #ffffff;
+}
+.qualityMessage{
+  display: flex;
+  justify-content: space-between;
+  padding:  10rpx;
+  color: grey;
+  background: #ffffff;
+  
+}
+.buyContent{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+ 
+}
+.ShoppingCartBtn{
+  width: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #bfbfbf;
+  border-top: 1px solid #bfbfbf;
+}
+.ShoppingCartBtn image{
+  width: 50rpx;
+  height: 50rpx;
+  
+}
+.addShoppingCart,.PurchaseBtn{
+  width: 275rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.addShoppingCart{
+  border-top: 1px solid #bfbfbf;
+}
+.PurchaseBtn{
+ background: #f4ea2a;
+ color: #ffffff;
+
+}
